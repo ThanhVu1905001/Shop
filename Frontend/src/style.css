@@ -1,0 +1,141 @@
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  display: flex;
+  margin-bottom: 15px;
+}
+.form-button {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: end;
+}
+
+label {
+  width: 180px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.form-button button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  margin-right: 60px;
+}
+.form-button button[type="submit"]:hover {
+  background-color: #0055ff;
+  color: #fff;
+  cursor: pointer;
+}
+.logout-button {
+  background-color: #dc3545;
+  color: #fff;
+}
+.logout-button:hover {
+  background-color: #ff021b;
+  color: #fff;
+}
+
+/* Điều chỉnh giao diện nút "Back" */
+.form-button button:nth-child(2) {
+  background-color: #dc3545;
+  color: #fff;
+}
+.form-button button:nth-child(2):hover {
+  background-color: #ff021b;
+  color: #fff;
+}
+.line {
+  border-bottom: 1px solid #ccc;
+}
+.title {
+  padding-top: 50px;
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+.ant-layout-sider {
+  flex: 0 0 250px !important;
+  max-width: 250px !important;
+  min-width: 250px !important;
+  width: 250px !important;
+}
+.ant-layout-sider-collapsed {
+  flex: 0 0 80px !important;
+  max-width: 80px !important;
+  min-width: 80px !important;
+  width: 80px !important;
+}
+.sm-logo {
+  display: none;
+}
+
+.ant-layout-sider-collapsed .sm-logo {
+  display: block;
+}
+.ant-layout-sider-collapsed .lg-logo {
+  display: none;
+}
+/* .logo {
+  background-color: #182537;
+  margin: 0;
+  height: 64px;
+} */
+main {
+  height: 85vh;
+  overflow-y: scroll;
+  background-color: transparent !important;
+}
+main::-webkit-scrollbar {
+  width: 0px;
+}
+.ant-menu-title-content {
+  font-size: 16px;
+}
+.ant-layout-header h5 {
+  line-height: 20px;
+  font-size: 14px;
+}
+.ant-layout-header p {
+  line-height: 20px;
+  font-size: 13px;
+}
+.ant-layout-header div .badge {
+  top: 16px;
+  right: -6px;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
+.a {
+  text-decoration: none;
+}
+.btn-error {
+  background-color: red;
+}
